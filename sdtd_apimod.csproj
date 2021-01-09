@@ -67,9 +67,13 @@
       <HintPath>7dtd-binaries\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="0Harmony, Version=2.0.4.0">
+      <HintPath>packages\Lib.Harmony.2.0.4\lib\net45\0Harmony.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\API.cs" />
+    <Compile Include="src\Injections.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ModInfo.xml">
