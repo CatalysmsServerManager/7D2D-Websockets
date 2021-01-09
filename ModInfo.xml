@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="CSMM Websocket" />
+		<Description value="Creates a websocket connection" />
+		<Author value="Catalysm" />
+		<Version value="0.0.1" />
+		<Website value="https://csmm.app" />
+	</ModInfo>
+</xml>
