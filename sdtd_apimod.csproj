@@ -70,10 +70,14 @@
     <Reference Include="0Harmony, Version=2.0.4.0">
       <HintPath>packages\Lib.Harmony.2.0.4\lib\net45\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="WebSockerSharp">
+      <HintPath>packages\websocket-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\API.cs" />
     <Compile Include="src\Injections.cs" />
+    <Compile Include="src\WSServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ModInfo.xml">

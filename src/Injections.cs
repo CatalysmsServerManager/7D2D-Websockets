@@ -1,12 +1,10 @@
 using System;
-using System.Collections.Generic;
-using sdtd_apimod;
-
-
+using CSMM_WSServer;
 public static class Injections
 {
+    public static WSServer ws = new WSServer();
     public static void Log_Postfix(String _s)
     {
-        Log.Out("Ayyyyy we made it");
+        ws.instance.WebSocketServices.Broadcast(_s);
     }
 }

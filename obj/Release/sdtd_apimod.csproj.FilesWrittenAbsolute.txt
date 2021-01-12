@@ -1,5 +1,0 @@
-/home/catalysm/code/CSMM/CSMM WS/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/catalysm/code/CSMM/CSMM WS/bin/Mods/sdtd_apimod/ModInfo.xml
-/home/catalysm/code/CSMM/CSMM WS/bin/Mods/sdtd_apimod/sdtd_apimod.dll
-/home/catalysm/code/CSMM/CSMM WS/obj/Release/sdtd_apimod.dll
-/home/catalysm/code/CSMM/CSMM WS/bin/Mods/sdtd_apimod/0Harmony.dll

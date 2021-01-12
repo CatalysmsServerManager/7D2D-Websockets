@@ -1,19 +1,13 @@
-using System.Collections.Generic;
-using System.Text;
 using System;
 using System.Reflection;
 using HarmonyLib;
 
 namespace sdtd_apimod
 {
-
     public class API : IModApi
     {
         public void InitMod()
         {
-            Log.Out("[CSMM WS] Starting websocket");
-
-
             Log.Out("[CSMM WS] Runtime patching initialized");
             Harmony harmony = new Harmony("com.github.CSMM");
             Type[] logTypes = { typeof(string) };
@@ -21,7 +15,7 @@ namespace sdtd_apimod
             if (original == null)
             {
                 Log.Out("[CSMM WS] Injection failed: Log#Out method was not found");
-            } 
+            }
             else
             {
                 MethodInfo postfix = typeof(Injections).GetMethod("Log_Postfix");

@@ -1,5 +1,0 @@
-C:\Users\Gebruiker\Desktop\sdtd_apimod\bin\Mods\sdtd_apimod\ModInfo.xml
-C:\Users\Gebruiker\Desktop\sdtd_apimod\bin\Mods\sdtd_apimod\sdtd_apimod.dll
-C:\Users\Gebruiker\Desktop\sdtd_apimod\obj\Release\sdtd_apimod.csprojAssemblyReference.cache
-C:\Users\Gebruiker\Desktop\sdtd_apimod\obj\Release\sdtd_apimod.csproj.CoreCompileInputs.cache
-C:\Users\Gebruiker\Desktop\sdtd_apimod\obj\Release\sdtd_apimod.dll
