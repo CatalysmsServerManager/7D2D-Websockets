@@ -2,4 +2,4 @@
 
 This mod sends all logs from the server to a websocket.
 
-The websocket runs on ControlPanelPort + 4 on the logs path. By default this is `ws://localhost:8084`
+The websocket runs on ControlPanelPort + 5 on the logs path. By default this is `ws://localhost:8085`

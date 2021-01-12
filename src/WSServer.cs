@@ -13,7 +13,7 @@ namespace CSMM_WSServer
         public void Start()
         {
             int webPort = GamePrefs.GetInt(EnumUtils.Parse<EnumGamePrefs>("ControlPanelPort"));
-            instance = new WebSocketServer("ws://0.0.0.0:" + (webPort + 4));
+            instance = new WebSocketServer("ws://0.0.0.0:" + (webPort + 5));
             instance.AddWebSocketService<Log>("/log");
             instance.Start();
         }

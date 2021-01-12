@@ -39,13 +39,12 @@ namespace sdtd_apimod
             }
             catch (ReflectionTypeLoadException ex)
             {
-                // now look at ex.LoaderExceptions - this is an Exception[], so:
                 foreach (Exception inner in ex.LoaderExceptions)
                 {
-                    // write details of "inner", in particular inner.Message
                     CSMMLog.Out(inner.Message);
                 }
             }
+
 
         }
 
