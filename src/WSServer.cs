@@ -1,6 +1,6 @@
 using WebSocketSharp;
 using WebSocketSharp.Server;
-
+using sdtd_apimod;
 namespace CSMM_WSServer
 {
     public class WSServer : WebSocketBehavior
@@ -12,7 +12,8 @@ namespace CSMM_WSServer
         public WebSocketServer instance;
         public void Start()
         {
-            instance = new WebSocketServer("ws://0.0.0.0:8084");
+            int webPort = GamePrefs.GetInt(EnumUtils.Parse<EnumGamePrefs>("ControlPanelPort"));
+            instance = new WebSocketServer("ws://0.0.0.0:" + (webPort + 4));
             instance.AddWebSocketService<Log>("/log");
             instance.Start();
         }
