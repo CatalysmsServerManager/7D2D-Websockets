@@ -8,5 +8,5 @@ This mod requires Allocs fixes to be installed because we piggyback the auth fro
 
 ## Authentication
 
-The websocket uses [Basic authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#basic_authentication_scheme) with the configured admin tokens from Allocs Fixes. The token must have permission level 0.
+The websocket uses [Basic authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) with the configured admin tokens from Allocs Fixes. The token must have permission level 0.
 
