@@ -59,7 +59,7 @@ namespace sdtd_apimod
     {
         public static void Out(String msg)
         {
-            Log.Out("[CSMM WS] " + msg);
+            Log.Out($"[CSMM WS] {msg}");
         }
     }
 }

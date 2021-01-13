@@ -67,6 +67,10 @@
       <HintPath>7dtd-binaries\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="MapRendering">
+      <HintPath>7dtd-binaries\MapRendering.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="0Harmony, Version=2.0.4.0">
       <HintPath>packages\Lib.Harmony.2.0.4\lib\net45\0Harmony.dll</HintPath>
     </Reference>

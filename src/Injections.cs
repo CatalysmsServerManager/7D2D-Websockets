@@ -1,5 +1,6 @@
 using System;
 using CSMM_WSServer;
+
 public static class Injections
 {
     public static WSServer ws = new WSServer();

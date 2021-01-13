@@ -5,5 +5,6 @@
 
 ssh 7d2d.csmm.app ./sdtdserver stop
 xbuild sdtd_apimod.sln
+ssh 7d2d.csmm.app rm -rf /home/catalysm/serverfiles/Mods/sdtd_apimod
 scp -r bin/Mods/sdtd_apimod 7d2d.csmm.app:/home/catalysm/serverfiles/Mods
 ssh 7d2d.csmm.app ./sdtdserver start
